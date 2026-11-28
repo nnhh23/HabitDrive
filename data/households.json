@@ -1,0 +1,2816 @@
+{
+ "metadata": {
+  "benchmark": "HabitDrive",
+  "schema_version": "2.0",
+  "seed": 42,
+  "language": "English",
+  "num_households": 100,
+  "num_members": 263
+ },
+ "households": [
+  {
+   "household_id": "hh_0001",
+   "namespace_id": "hh_0001",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0001_A",
+     "name": "Sophia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0001_B",
+     "name": "Logan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0002",
+   "namespace_id": "hh_0002",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0002_A",
+     "name": "Anthony",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0002_B",
+     "name": "Nicholas",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0002_C",
+     "name": "Zoe",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0003",
+   "namespace_id": "hh_0003",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0003_A",
+     "name": "Rachel",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0003_B",
+     "name": "Natalie",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0003_C",
+     "name": "Liam",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0004",
+   "namespace_id": "hh_0004",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0004_A",
+     "name": "Benjamin",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0004_B",
+     "name": "Alexander",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "financial_analyst",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0005",
+   "namespace_id": "hh_0005",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0005_A",
+     "name": "Claire",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0005_B",
+     "name": "Michael",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0005_C",
+     "name": "Lily",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0005_D",
+     "name": "Eva",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0006",
+   "namespace_id": "hh_0006",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0006_A",
+     "name": "Samuel",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0006_B",
+     "name": "Sophie",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0007",
+   "namespace_id": "hh_0007",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0007_A",
+     "name": "James",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0007_B",
+     "name": "Matthew",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0008",
+   "namespace_id": "hh_0008",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0008_A",
+     "name": "Jonathan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0008_B",
+     "name": "Sarah",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0009",
+   "namespace_id": "hh_0009",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0009_A",
+     "name": "Victoria",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0009_B",
+     "name": "Kevin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0009_C",
+     "name": "Maya",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0010",
+   "namespace_id": "hh_0010",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0010_A",
+     "name": "Christopher",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "designer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0010_B",
+     "name": "William",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0011",
+   "namespace_id": "hh_0011",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0011_A",
+     "name": "Emily",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0011_B",
+     "name": "Daniel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0011_C",
+     "name": "Leah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0012",
+   "namespace_id": "hh_0012",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0012_A",
+     "name": "Olivia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0012_B",
+     "name": "Chloe",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0012_C",
+     "name": "Caleb",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0013",
+   "namespace_id": "hh_0013",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0013_A",
+     "name": "David",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0013_B",
+     "name": "Amelia",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0014",
+   "namespace_id": "hh_0014",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0014_A",
+     "name": "Robert",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0014_B",
+     "name": "Anna",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0014_C",
+     "name": "Dylan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0015",
+   "namespace_id": "hh_0015",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0015_A",
+     "name": "Laura",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0015_B",
+     "name": "Grace",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0015_C",
+     "name": "Noah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0016",
+   "namespace_id": "hh_0016",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0016_A",
+     "name": "Charles",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0016_B",
+     "name": "Joseph",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0016_C",
+     "name": "Lucy",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0016_D",
+     "name": "Alice",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0017",
+   "namespace_id": "hh_0017",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0017_A",
+     "name": "Rebecca",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0017_B",
+     "name": "Charlotte",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0017_C",
+     "name": "Leo",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0018",
+   "namespace_id": "hh_0018",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0018_A",
+     "name": "Emma",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0018_B",
+     "name": "Megan",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0018_C",
+     "name": "Jacob",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0019",
+   "namespace_id": "hh_0019",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0019_A",
+     "name": "Julia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0019_B",
+     "name": "Thomas",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0019_C",
+     "name": "Ethan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0019_D",
+     "name": "Ruby",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0020",
+   "namespace_id": "hh_0020",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0020_A",
+     "name": "Hannah",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0020_B",
+     "name": "Henry",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0021",
+   "namespace_id": "hh_0021",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0021_A",
+     "name": "Ryan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0021_B",
+     "name": "Lucas",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0022",
+   "namespace_id": "hh_0022",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0022_A",
+     "name": "Andrew",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0022_B",
+     "name": "Clara",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0023",
+   "namespace_id": "hh_0023",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0023_A",
+     "name": "Jessica",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0023_B",
+     "name": "Sophia",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0024",
+   "namespace_id": "hh_0024",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0024_A",
+     "name": "Anthony",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "designer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0024_B",
+     "name": "Mason",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0025",
+   "namespace_id": "hh_0025",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0025_A",
+     "name": "Nicholas",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0025_B",
+     "name": "Rachel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0025_C",
+     "name": "Isaac",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0026",
+   "namespace_id": "hh_0026",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0026_A",
+     "name": "Natalie",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "designer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0026_B",
+     "name": "Benjamin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0026_C",
+     "name": "Owen",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0027",
+   "namespace_id": "hh_0027",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0027_A",
+     "name": "Alexander",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0027_B",
+     "name": "Claire",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0027_C",
+     "name": "Jack",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0028",
+   "namespace_id": "hh_0028",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0028_A",
+     "name": "Michael",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0028_B",
+     "name": "Samuel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0028_C",
+     "name": "Ella",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0028_D",
+     "name": "Ivy",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0029",
+   "namespace_id": "hh_0029",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0029_A",
+     "name": "James",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0029_B",
+     "name": "Matthew",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0030",
+   "namespace_id": "hh_0030",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0030_A",
+     "name": "Jonathan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0030_B",
+     "name": "Sarah",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0030_C",
+     "name": "Mia",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0031",
+   "namespace_id": "hh_0031",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0031_A",
+     "name": "Victoria",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0031_B",
+     "name": "Kevin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0032",
+   "namespace_id": "hh_0032",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0032_A",
+     "name": "Christopher",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0032_B",
+     "name": "Luke",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0033",
+   "namespace_id": "hh_0033",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0033_A",
+     "name": "William",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0033_B",
+     "name": "Ava",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0034",
+   "namespace_id": "hh_0034",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0034_A",
+     "name": "Emily",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0034_B",
+     "name": "Daniel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0034_C",
+     "name": "Nora",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0034_D",
+     "name": "Logan",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0035",
+   "namespace_id": "hh_0035",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0035_A",
+     "name": "Olivia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0035_B",
+     "name": "Chloe",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0035_C",
+     "name": "Zoe",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0036",
+   "namespace_id": "hh_0036",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0036_A",
+     "name": "David",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0036_B",
+     "name": "Amelia",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0036_C",
+     "name": "Liam",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0037",
+   "namespace_id": "hh_0037",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0037_A",
+     "name": "Robert",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0037_B",
+     "name": "Anna",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0038",
+   "namespace_id": "hh_0038",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0038_A",
+     "name": "Laura",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "financial_analyst",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0038_B",
+     "name": "Grace",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0039",
+   "namespace_id": "hh_0039",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0039_A",
+     "name": "Charles",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0039_B",
+     "name": "Lily",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0040",
+   "namespace_id": "hh_0040",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0040_A",
+     "name": "Joseph",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0040_B",
+     "name": "Eva",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0041",
+   "namespace_id": "hh_0041",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0041_A",
+     "name": "Rebecca",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0041_B",
+     "name": "Charlotte",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0042",
+   "namespace_id": "hh_0042",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0042_A",
+     "name": "Emma",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0042_B",
+     "name": "Megan",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0042_C",
+     "name": "Sophie",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0043",
+   "namespace_id": "hh_0043",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0043_A",
+     "name": "Julia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0043_B",
+     "name": "Maya",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0044",
+   "namespace_id": "hh_0044",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0044_A",
+     "name": "Thomas",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0044_B",
+     "name": "Hannah",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0045",
+   "namespace_id": "hh_0045",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0045_A",
+     "name": "Ryan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0045_B",
+     "name": "Andrew",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0045_C",
+     "name": "Leah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0045_D",
+     "name": "Caleb",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0046",
+   "namespace_id": "hh_0046",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0046_A",
+     "name": "Jessica",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0046_B",
+     "name": "Sophia",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0046_C",
+     "name": "Dylan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0047",
+   "namespace_id": "hh_0047",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0047_A",
+     "name": "Anthony",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0047_B",
+     "name": "Nicholas",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0048",
+   "namespace_id": "hh_0048",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0048_A",
+     "name": "Rachel",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0048_B",
+     "name": "Natalie",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0048_C",
+     "name": "Noah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0049",
+   "namespace_id": "hh_0049",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0049_A",
+     "name": "Benjamin",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0049_B",
+     "name": "Alexander",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0049_C",
+     "name": "Lucy",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0049_D",
+     "name": "Alice",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0050",
+   "namespace_id": "hh_0050",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0050_A",
+     "name": "Claire",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0050_B",
+     "name": "Leo",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0051",
+   "namespace_id": "hh_0051",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0051_A",
+     "name": "Michael",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0051_B",
+     "name": "Samuel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0051_C",
+     "name": "Jacob",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0052",
+   "namespace_id": "hh_0052",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0052_A",
+     "name": "James",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0052_B",
+     "name": "Matthew",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0052_C",
+     "name": "Ethan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0053",
+   "namespace_id": "hh_0053",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0053_A",
+     "name": "Jonathan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0053_B",
+     "name": "Sarah",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0054",
+   "namespace_id": "hh_0054",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0054_A",
+     "name": "Victoria",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "financial_analyst",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0054_B",
+     "name": "Kevin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0054_C",
+     "name": "Ruby",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0055",
+   "namespace_id": "hh_0055",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0055_A",
+     "name": "Christopher",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0055_B",
+     "name": "William",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0055_C",
+     "name": "Henry",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0056",
+   "namespace_id": "hh_0056",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0056_A",
+     "name": "Emily",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0056_B",
+     "name": "Daniel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0057",
+   "namespace_id": "hh_0057",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0057_A",
+     "name": "Olivia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0057_B",
+     "name": "Chloe",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0057_C",
+     "name": "Lucas",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0057_D",
+     "name": "Clara",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0058",
+   "namespace_id": "hh_0058",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0058_A",
+     "name": "David",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0058_B",
+     "name": "Amelia",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0058_C",
+     "name": "Mason",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0059",
+   "namespace_id": "hh_0059",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0059_A",
+     "name": "Robert",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0059_B",
+     "name": "Anna",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0059_C",
+     "name": "Isaac",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0060",
+   "namespace_id": "hh_0060",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0060_A",
+     "name": "Laura",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0060_B",
+     "name": "Owen",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0061",
+   "namespace_id": "hh_0061",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0061_A",
+     "name": "Grace",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0061_B",
+     "name": "Jack",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0062",
+   "namespace_id": "hh_0062",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0062_A",
+     "name": "Charles",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0062_B",
+     "name": "Joseph",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0063",
+   "namespace_id": "hh_0063",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0063_A",
+     "name": "Rebecca",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "journalist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0063_B",
+     "name": "Charlotte",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0064",
+   "namespace_id": "hh_0064",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0064_A",
+     "name": "Emma",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0064_B",
+     "name": "Megan",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0064_C",
+     "name": "Ella",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0065",
+   "namespace_id": "hh_0065",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0065_A",
+     "name": "Julia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0065_B",
+     "name": "Thomas",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0066",
+   "namespace_id": "hh_0066",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0066_A",
+     "name": "Hannah",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "freelancer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0066_B",
+     "name": "Ryan",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0066_C",
+     "name": "Ivy",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0066_D",
+     "name": "Mia",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0067",
+   "namespace_id": "hh_0067",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0067_A",
+     "name": "Andrew",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0067_B",
+     "name": "Jessica",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0067_C",
+     "name": "Luke",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0068",
+   "namespace_id": "hh_0068",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0068_A",
+     "name": "Sophia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0068_B",
+     "name": "Anthony",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0068_C",
+     "name": "Ava",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0068_D",
+     "name": "Nora",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0069",
+   "namespace_id": "hh_0069",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0069_A",
+     "name": "Nicholas",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0069_B",
+     "name": "Rachel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0070",
+   "namespace_id": "hh_0070",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0070_A",
+     "name": "Natalie",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0070_B",
+     "name": "Benjamin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0071",
+   "namespace_id": "hh_0071",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0071_A",
+     "name": "Alexander",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0071_B",
+     "name": "Claire",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0071_C",
+     "name": "Logan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0071_D",
+     "name": "Zoe",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0072",
+   "namespace_id": "hh_0072",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0072_A",
+     "name": "Michael",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0072_B",
+     "name": "Samuel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0073",
+   "namespace_id": "hh_0073",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0073_A",
+     "name": "James",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0073_B",
+     "name": "Matthew",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0073_C",
+     "name": "Liam",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0074",
+   "namespace_id": "hh_0074",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0074_A",
+     "name": "Jonathan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0074_B",
+     "name": "Sarah",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0075",
+   "namespace_id": "hh_0075",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0075_A",
+     "name": "Victoria",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0075_B",
+     "name": "Kevin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0075_C",
+     "name": "Lily",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0076",
+   "namespace_id": "hh_0076",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0076_A",
+     "name": "Christopher",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0076_B",
+     "name": "William",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "human_resources_specialist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0077",
+   "namespace_id": "hh_0077",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0077_A",
+     "name": "Emily",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0077_B",
+     "name": "Daniel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "designer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0077_C",
+     "name": "Eva",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0078",
+   "namespace_id": "hh_0078",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0078_A",
+     "name": "Olivia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0078_B",
+     "name": "Chloe",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0078_C",
+     "name": "Sophie",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0079",
+   "namespace_id": "hh_0079",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0079_A",
+     "name": "David",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0079_B",
+     "name": "Maya",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0080",
+   "namespace_id": "hh_0080",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0080_A",
+     "name": "Amelia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0080_B",
+     "name": "Robert",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "designer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0080_C",
+     "name": "Leah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0081",
+   "namespace_id": "hh_0081",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0081_A",
+     "name": "Anna",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0081_B",
+     "name": "Laura",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0081_C",
+     "name": "Caleb",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0082",
+   "namespace_id": "hh_0082",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0082_A",
+     "name": "Grace",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0082_B",
+     "name": "Charles",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0082_C",
+     "name": "Dylan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0083",
+   "namespace_id": "hh_0083",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0083_A",
+     "name": "Joseph",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0083_B",
+     "name": "Rebecca",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0083_C",
+     "name": "Noah",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0084",
+   "namespace_id": "hh_0084",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0084_A",
+     "name": "Charlotte",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "civil_servant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0084_B",
+     "name": "Lucy",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0085",
+   "namespace_id": "hh_0085",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0085_A",
+     "name": "Emma",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "retired",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0085_B",
+     "name": "Megan",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0085_C",
+     "name": "Alice",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0086",
+   "namespace_id": "hh_0086",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0086_A",
+     "name": "Julia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0086_B",
+     "name": "Leo",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0087",
+   "namespace_id": "hh_0087",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0087_A",
+     "name": "Thomas",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "nurse",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0087_B",
+     "name": "Jacob",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0088",
+   "namespace_id": "hh_0088",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0088_A",
+     "name": "Hannah",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "researcher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0088_B",
+     "name": "Ethan",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0089",
+   "namespace_id": "hh_0089",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0089_A",
+     "name": "Ryan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0089_B",
+     "name": "Ruby",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0090",
+   "namespace_id": "hh_0090",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0090_A",
+     "name": "Andrew",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "financial_analyst",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0090_B",
+     "name": "Jessica",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "software_engineer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0090_C",
+     "name": "Henry",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0091",
+   "namespace_id": "hh_0091",
+   "composition": "two_adults_two_children",
+   "members": [
+    {
+     "member_id": "hh_0091_A",
+     "name": "Sophia",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "architect",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0091_B",
+     "name": "Anthony",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0091_C",
+     "name": "Lucas",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    },
+    {
+     "member_id": "hh_0091_D",
+     "name": "Clara",
+     "role": "second_child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0092",
+   "namespace_id": "hh_0092",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0092_A",
+     "name": "Nicholas",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0092_B",
+     "name": "Rachel",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0093",
+   "namespace_id": "hh_0093",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0093_A",
+     "name": "Natalie",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0093_B",
+     "name": "Benjamin",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "doctor",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0093_C",
+     "name": "Mason",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0094",
+   "namespace_id": "hh_0094",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0094_A",
+     "name": "Alexander",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0094_B",
+     "name": "Claire",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "marketing_specialist",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0095",
+   "namespace_id": "hh_0095",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0095_A",
+     "name": "Michael",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0095_B",
+     "name": "Isaac",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "middle_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0096",
+   "namespace_id": "hh_0096",
+   "composition": "two_adults",
+   "members": [
+    {
+     "member_id": "hh_0096_A",
+     "name": "Samuel",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "salesperson",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0096_B",
+     "name": "James",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "shop_owner",
+     "can_drive": true
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0097",
+   "namespace_id": "hh_0097",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0097_A",
+     "name": "Matthew",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "lawyer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0097_B",
+     "name": "Owen",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0098",
+   "namespace_id": "hh_0098",
+   "composition": "one_adult_one_child",
+   "members": [
+    {
+     "member_id": "hh_0098_A",
+     "name": "Jonathan",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0098_B",
+     "name": "Jack",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0099",
+   "namespace_id": "hh_0099",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0099_A",
+     "name": "Sarah",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "accountant",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0099_B",
+     "name": "Victoria",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "university_lecturer",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0099_C",
+     "name": "Ella",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "primary_school_student",
+     "can_drive": false
+    }
+   ]
+  },
+  {
+   "household_id": "hh_0100",
+   "namespace_id": "hh_0100",
+   "composition": "two_adults_one_child",
+   "members": [
+    {
+     "member_id": "hh_0100_A",
+     "name": "Kevin",
+     "role": "primary_user",
+     "age_group": "adult",
+     "occupation": "teacher",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0100_B",
+     "name": "Christopher",
+     "role": "spouse",
+     "age_group": "adult",
+     "occupation": "financial_analyst",
+     "can_drive": true
+    },
+    {
+     "member_id": "hh_0100_C",
+     "name": "Ivy",
+     "role": "child",
+     "age_group": "child",
+     "occupation": "high_school_student",
+     "can_drive": false
+    }
+   ]
+  }
+ ]
+}

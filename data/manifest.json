@@ -1,0 +1,48 @@
+{
+ "benchmark": "HabitDrive",
+ "paper_targets": {
+  "households": 100,
+  "base_history_events": 5000,
+  "route_tasks": 2000,
+  "cabin_tasks": 1000
+ },
+ "actual_counts": {
+  "households": 100,
+  "members": 263,
+  "memories": 3200,
+  "base_history_events": 5000,
+  "expanded_history_events": 3275,
+  "total_history_interactions": 8275,
+  "route_tasks": 2000,
+  "route_tasks_with_parking": 417,
+  "cabin_tasks": 1000
+ },
+ "challenge_label_counts": {
+  "preference_update": 1878,
+  "conditional_application": 1277,
+  "user_binding": 2344,
+  "temporary_request_interference": 306
+ },
+ "route_challenge_label_counts": {
+  "preference_update": 1336,
+  "conditional_application": 1058,
+  "user_binding": 1447,
+  "temporary_request_interference": 237
+ },
+ "cabin_challenge_label_counts": {
+  "preference_update": 542,
+  "user_binding": 897,
+  "conditional_application": 219,
+  "temporary_request_interference": 69
+ },
+ "verbalized_households": 100,
+ "missing_verbalized_households": [],
+ "reverted_to_template_events": 367,
+ "seed": 42,
+ "model": {
+  "path": "/path/to/weights/Llama-3.1-8B-Instruct",
+  "name": "Llama-3.1-8B-Instruct",
+  "dtype": "bfloat16"
+ },
+ "decisions": "See GENERATION_NOTES.md"
+}
